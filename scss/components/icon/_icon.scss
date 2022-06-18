@@ -1,0 +1,54 @@
+.icon {
+  &__circle {
+    position: absolute;
+    top: -4px;
+    left: 12px;
+    width: 25px;
+    height: 19px;
+    background-color: $red;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 18px;
+  }
+}
+
+.icon--bell {
+  position: relative;
+}
+
+.icon--add {
+  label {
+    cursor: pointer;
+  }
+  .icon-add__check {
+    display: none;
+  }
+  .icon-add__check:checked ~ &__popup {
+    display: block;
+  }
+  &__popup {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 230px;
+    padding: 6px 0;
+    background-color: $black;
+    border: 1px solid $grayBorder;
+    border-top: none;
+    border-right: none;
+    display: none;
+    a {
+      color: #fff;
+      display: block;
+      padding: 13px 20px;
+      font-size: 14px;
+      transition: all 0.1s;
+      &:hover {
+        transition: all 0.2s;
+        background-color: #373737;
+      }
+    }
+  }
+}
