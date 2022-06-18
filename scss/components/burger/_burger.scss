@@ -1,0 +1,12 @@
+.burger {
+  height: 20px;
+  width: 18px;
+  cursor: pointer;
+  &__line {
+    display: block;
+    margin: 5px 0;
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+  }
+}
