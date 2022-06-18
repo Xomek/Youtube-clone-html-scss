@@ -51,4 +51,11 @@
       }
     }
   }
+  .icon--add__link {
+    svg {
+      margin-right: 14px;
+    }
+    display: flex;
+    align-items: center;
+  }
 }
